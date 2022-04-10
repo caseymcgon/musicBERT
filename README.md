@@ -15,5 +15,5 @@ This .ipynb pulls in data from the **billboard_song_lyics.csv** and removes all 
 ### Baselines.ipynb
 This .ipynb pulls in our cleaned data from **good_lyrics_data.csv** and further prepares it for NLP -- performing tokenization, creating embeddings, etc. Then we run 3 basic models as baselines upon which we'd like to see improvement in our final BERT-based model.
 
-### Casey_BERT_Fine-tuning.ipynb
+### BERT_Fine-tuning.ipynb
 This .ipynb pulls in our cleaned data from **good_lyrics_data.csv** and further prepares it for BERT -- using BERT's tokenizer to prepare the text for the BERT Model. Then, we train the model & look at results against validation & eventually test data.
